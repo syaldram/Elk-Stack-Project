@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T01:42:24.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.2.7" etag="C8vIfuplfXCnf2XbF__I" type="github"><diagram id="ZXiYerfBiY1me9eOV6Jw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-05T02:06:18.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="TKV-g1MnJMTjxuYCzLGs" version="14.2.7" type="github">
+  <diagram id="ZXiYerfBiY1me9eOV6Jw" name="Page-1">
+    <mxGraphModel dx="1306" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q8ADzwi9gRjabYKY07M5-2" value="Capstone Machine&lt;br&gt;Windows&lt;br&gt;192.168.1.105" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="130" height="119.6" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-3" value="Attack Machine&lt;br&gt;Kali Linux&lt;br&gt;192.168.1.90" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux_Non_Azure.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="126.4" width="130" height="119.6" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8ADzwi9gRjabYKY07M5-4" target="q8ADzwi9gRjabYKY07M5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-15" value="Log files analyzed using Kibana&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="q8ADzwi9gRjabYKY07M5-10">
+          <mxGeometry x="-0.1924" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-4" value="ELK Server&lt;br&gt;192.168.1.100" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="830" y="245.99999999999997" width="130" height="232.13" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8ADzwi9gRjabYKY07M5-5" target="q8ADzwi9gRjabYKY07M5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-5" value="Kibana" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/kibana-128.png" vertex="1" parent="1">
+          <mxGeometry x="490" y="302.27" width="119.6" height="119.6" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-6" value="Hyper-V Azure Host Machine&lt;br&gt;192.168.1.1" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.hyper_v_host;" vertex="1" parent="1">
+          <mxGeometry x="70" y="302.27" width="130" height="119.6" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" edge="1" parent="1" target="q8ADzwi9gRjabYKY07M5-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="180.00000000000006" as="sourcePoint" />
+            <mxPoint x="350" y="180.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-12" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Attach Machine finds exploits on network in the Capstone Machine&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelPosition=center;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="q8ADzwi9gRjabYKY07M5-7">
+          <mxGeometry x="0.2143" y="-2" relative="1" as="geometry">
+            <mxPoint x="-32.8" y="18.2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8ADzwi9gRjabYKY07M5-2" target="q8ADzwi9gRjabYKY07M5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8ADzwi9gRjabYKY07M5-14" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Activity log from Capstone Machine sent for analysis by ELK server&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q8ADzwi9gRjabYKY07M5-9">
+          <mxGeometry x="0.3071" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="22.200000000000017" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
